@@ -1,0 +1,90 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul celeste */
+    color: #333;
+}
+
+/* Estilos para el encabezado */
+
+header a {
+    color: #fff; /* Color blanco para los enlaces dentro del encabezado */
+}
+
+header {
+    background-color: #007bff; /* Azul */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #ff7f50; /* Naranja */
+}
+
+figure {
+    margin: 0 auto; /* Centra horizontalmente la figura */
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centra horizontalmente el contenido dentro de la figura */
+}
+
+figure img {
+    width: 400px; /* Ancho máximo del contenedor */
+    height: auto; /* Altura automática para mantener la proporción de la imagen */
+}
+
+.image-container {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+
+.image-container figure {
+    display: inline-block;
+    margin: 0 auto; /* Centra horizontalmente la figura */
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+/* Estilos para los videos */
+.video-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
