@@ -1,3 +1,8 @@
+.titulo {
+    color: #007bff; /* Naranja */
+    font-size: 2em;
+    font-weight: bold; 
+}
 /* Estilos para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
@@ -19,16 +24,33 @@ header {
     text-align: center;
 }
 
+/* Estilos generales para la lista de navegación */
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Estilos para cada elemento de la lista de navegación */
 nav ul li {
     display: inline;
     margin-right: 20px;
     font-weight: bold;
+    font-size: 1.5em; /* Tamaño de fuente duplicado */
+    font-family: 'Arial', sans-serif; /* Cambia el font a uno moderno que te guste */
 }
+
+/* Estilos para los enlaces dentro de los elementos de la lista */
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #f7f5f5; /* Color de texto por defecto */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+/* Estilos para cambiar el color de los enlaces al pasar el ratón */
+nav ul li a:hover {
+    color: #ff7f50; /* Color de texto al pasar el ratón */
+}
+
 
 /* Estilos para el contenido principal */
 main {
@@ -43,17 +65,18 @@ h1, h2 {
     color: #ff7f50; /* Naranja */
 }
 
-figure {
+figure.image-container {
     margin: 0 auto; /* Centra horizontalmente la figura */
-    display: inline-block;
+    display: outside;
     margin-right: 20px;
     margin-bottom: 20px;
     text-align: center; /* Centra horizontalmente el contenido dentro de la figura */
 }
 
 figure img {
-    width: 400px; /* Ancho máximo del contenedor */
+    width: 200%; /* Ancho máximo del contenedor */
     height: auto; /* Altura automática para mantener la proporción de la imagen */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor de la imagen */
 }
 
 .image-container {
